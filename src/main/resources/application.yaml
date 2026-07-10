@@ -4,7 +4,7 @@ spring:
   application:
     name: book-my-ticket
   datasource:
-    url: jdbc:mysql://localhost:3306/book-my-ticket?createDatabaseIfNotExist=true
+    url: jdbc:mysql://10.0.131.142:3306/book-my-ticket?createDatabaseIfNotExist=true
     username: root
     password: Akash123.@#
   jpa:
@@ -35,4 +35,4 @@ admin:
   password: admin
 local:
   storage:
-    base-path: uploads
+    base-path: uploads
