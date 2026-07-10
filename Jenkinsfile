@@ -44,7 +44,7 @@ pipeline {
                     fi
 
                     echo "Starting the Spring Boot application..."
-                    nohup sudo java -jar target/book-my-ticket-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
+                    sudo java -jar target/book-my-ticket-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
                 '''
             }
         }
